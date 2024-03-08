@@ -5,13 +5,13 @@ This repository contains a collection of programs related to Data Structures and
 
 ## Contents
 
-1. [Linked List Implementation in C++](LinkedList.cpp): 
+1. [Linked List Implementation in C++](LL.c++): 
    - **Using**: Classes, Objects, Templates
 
-2. [Stack Implementation in C++](Stack.cpp): 
+2. [Stack Implementation in C++](Stack.c++): 
    - **Using**: Classes, Objects
 
-3. [Linked List Implementation in Java](LinkedList.java): 
+3. [Linked List Implementation in Java](LL.java): 
    - **Using**: Classes, Objects
 
 4. [Array ADT 1 in C++](ARRAY_ADT1.CPP)
