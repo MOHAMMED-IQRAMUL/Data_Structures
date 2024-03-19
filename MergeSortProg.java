@@ -23,11 +23,9 @@ public class MergeSortProg {
             A[i] = B[i];
         }
     }
-
     public static void MergeSort(int[] A) {
         MergeSort(A, 0, A.length - 1);
     }
-
     public static void MergeSort(int A[], int low, int high) {
         if (low < high) {
             // int mid = (low + (high - low)) / 2;
@@ -37,18 +35,12 @@ public class MergeSortProg {
             Merge(A, low, mid, high);
         }
     }
-
     public static void main(String[] args) {
         int[] arr = { 12, 11, 13, 5, 6, 7 };
-
         System.out.println("Original array:");
         System.out.println(Arrays.toString(arr));
-
         MergeSort(arr);
-
         System.out.println("Sorted array:");
         System.out.println(Arrays.toString(arr));
-
     }
-
 }
