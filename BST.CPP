@@ -11,14 +11,11 @@ public:
 
 class BST
 {
-
     NODE *ROOT;
-
 public:
     BST()
     {
         ROOT = new NODE;
-
         ROOT = nullptr;
     }
 
@@ -42,7 +39,6 @@ public:
     }
 
     NODE *GETROOT() { return ROOT; }
-
     void INSERT1(int KEY)
     {
         NODE *T = ROOT;
