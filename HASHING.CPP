@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 class NODE
 {
 public:
@@ -10,7 +11,6 @@ public:
 class CHAINING_HASH
 {
     NODE **HT;
-
 public:
     CHAINING_HASH() {}
     CHAINING_HASH(int KEY)
