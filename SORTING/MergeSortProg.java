@@ -19,7 +19,7 @@ public class MergeSortProg {
         while (j <= high) {
             B[k++] = A[j++];
         }
-        for (i = low; i <= high; i++) {
+        for (i = low; i <= high; i++) { 
             A[i] = B[i];
         }
     }
