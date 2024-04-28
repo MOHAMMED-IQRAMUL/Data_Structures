@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+ 
 public class BINARYSEARCH {
     static int BIN(int ARR[], int L, int H, int KEY) {
         int MID = 0;
